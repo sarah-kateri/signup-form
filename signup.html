@@ -9,45 +9,62 @@
 
 <body>
 
-  <div id="img-sidebar">
-    <img src="eberhard-grossgasteiger.jpg">
-    <header>Sign Up</header>
-    <p>Photo by Eberhard Grossgasteiger</p>
+<div class="body-container">
+  
+  <div class="sidebar">
+    <img src="eberhard-grossgasteiger1.jpg">
+    <header>SIGN UP</header>
+    <p class="attribution">Photo by Eberhard Grossgasteiger</p>
   </div>
 
-  <div id="main-container">
+  <div class="content-container">
     <p>This is not a real online service! You know you need something 
       like this in your life to help you realize your deepest dreams. 
       Sign up now to get started.
     </p>
     <p>You <em>know</em> you want to.</p>
 
-    <div id="form-container">
+    <div class="form-container">
       <p>Let's do this!</p>
-      <form method="post">
-        <label for="first_name">First Name:</label>
-        <input type="text" id="first_name">
-        
-        <label for="last_name">Last Name:</label>
-        <input type="text" id="last_name">
+      <form action="#" method="post">
+        <div class="form-left">
+         <p class="input"> 
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name">
+         </p>
+        <p class="input">
+          <label for="email">Email:</label> 
+          <input type="email" id="email"> 
+        </p>        
+        <p class="input">
+          <label for="password">Password:</label>
+          <input type="password" id="password" required>          
+        </p>
+        </div>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email">
+        <div class="form-right">
+          <p class="input">
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name">
+          </p>
+        <p class="input">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone">
+        </p>
+        <p class="input">
+          <label for="password">Confirm Password:</label>
+          <input type="password" id="password" required>
+        </p>
+        </div>
 
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone">
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" required>
-
-        <label for="password">Confirm Password:</label>
-        <input type="password" id="password" required>
       </form>
     </div>
 
     <input type="submit" Create Account>
     <p>Already have an account? Log in</p>
   </div>
+
+</div>
 
 </body>
 </html>
