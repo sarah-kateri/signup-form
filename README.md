@@ -1,1 +1,1 @@
-It's a sign-up form
+A basic sign-up form
